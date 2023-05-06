@@ -7,7 +7,7 @@ body {
 .title {
   font-size: 30px;
   font-weight: bold;
-  margin-left: 160px;
+  margin-left: 450px;
   text-decoration-line: underline;
 }
 
@@ -15,16 +15,40 @@ body {
   height: 50px;
 }
 
-.move-button {
+.move-button1 {
   width: 120px;
   height: 120px;
   border-radius: 60px;
   border: 3px solid rgb(12, 245, 245);
 
   background-color: transparent;
-  margin-right: 10px;
+  margin-right: 0px;
   cursor: pointer;
-  margin-left: 50px;
+  margin-left: 250px;
+}
+
+.move-button2 {
+  width: 120px;
+  height: 120px;
+  border-radius: 60px;
+  border: 3px solid rgb(12, 245, 245);
+
+  background-color: transparent;
+  margin-right: 0px;
+  cursor: pointer;
+  margin-left: 150px;
+}
+
+.move-button3 {
+  width: 120px;
+  height: 120px;
+  border-radius: 60px;
+  border: 3px solid rgb(12, 245, 245);
+
+  background-color: transparent;
+  margin-right: 0px;
+  cursor: pointer;
+  margin-left: 150px;
 }
 
 .move-button:active {
@@ -35,22 +59,24 @@ body {
   font-size: 25px;
   font-weight: bold;
   margin-top: 50px;
-  margin-left: 90px;
+  margin-left: 350px;
 }
 
 .thingi {
-  margin-left: 90px;
+  margin-left: 290px;
 }
 
 .score {
-  margin-top: 60px;
-  margin-left: 90px;
+  margin-top: 30px;
+  margin-left: 300px;
+  margin-bottom: 20px;
 }
 
 .reset-button {
   background-color: rgb(81, 179, 62);
   border-style: solid;
-  margin-left: 90px;
+  margin-left: 270px;
+  margin-right: 70px;
   border-top-right-radius: 10px;
   border-bottom-left-radius: 10px;
   border-color: rgba(215, 203, 203, 0.396);
@@ -91,3 +117,4 @@ body {
 .autoPlay:hover {
   opacity: 0.8;
 }
+
